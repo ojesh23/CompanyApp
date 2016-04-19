@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layoutdesign"
+    tools:context="com.kullabs.kullabsapp.PhysicsLessons">
+
+    <TextView
+        android:id="@+id/physics_header"
+        style="@style/physic_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/headertxtdesign"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/units"
+        style="@style/units"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/physics_header"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn1"
+        android:entries="@array/spn1_item"
+        android:layout_below="@+id/physics_header"
+        android:layout_toRightOf="@+id/units" />
+
+    <TextView
+        android:id="@+id/velocity"
+        style="@style/velocity"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/units"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn2"
+        android:layout_below="@+id/units"
+        android:layout_toRightOf="@+id/velocity" />
+
+    <TextView
+        android:id="@+id/machine"
+        style="@style/machine"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/velocity"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn3"
+        android:layout_below="@+id/velocity"
+        android:layout_toRightOf="@+id/machine" />
+
+    <TextView
+        android:id="@+id/pressure"
+        style="@style/pressure"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/machine"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn4"
+        android:layout_below="@+id/machine"
+        android:layout_toRightOf="@+id/pressure" />
+
+    <TextView
+        android:id="@+id/wep"
+        style="@style/wep"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pressure"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn5"
+        android:layout_below="@+id/pressure"
+        android:layout_toRightOf="@+id/wep" />
+
+    <TextView
+        android:id="@+id/heat"
+        style="@style/heat"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wep"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn6"
+        android:layout_below="@+id/wep"
+        android:layout_toRightOf="@+id/heat" />
+
+    <TextView
+        android:id="@+id/sound"
+        style="@style/sound"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heat"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn7"
+        android:layout_below="@+id/heat"
+        android:layout_toRightOf="@+id/sound" />
+
+    <TextView
+        android:id="@+id/light"
+        style="@style/light"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sound"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn8"
+        android:layout_below="@+id/sound"
+        android:layout_toRightOf="@+id/light" />
+
+    <TextView
+        android:id="@+id/magnetism"
+        style="@style/magnetism"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/light"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn9"
+        android:layout_below="@+id/light"
+        android:layout_toRightOf="@+id/magnetism" />
+
+    <TextView
+        android:id="@+id/elctricity"
+        style="@style/electricity"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/magnetism"
+        android:background="@drawable/unitsdesign"
+        android:drawableLeft="@android:drawable/radiobutton_on_background" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:id="@+id/spn10"
+        android:layout_below="@+id/magnetism"
+        android:layout_toRightOf="@+id/elctricity" />
+
+
+</RelativeLayout>

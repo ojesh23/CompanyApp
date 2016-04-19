@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="Appname">false</item>
+    <item type="id" name="Website">false</item>
+    <item type="id" name="separator">false</item>
+    <item type="id" name="item_name">false</item>
+    <item type="id" name="navigationHeader">false</item>
+    <item type="id" name="webview">false</item>
+    <item type="id" name="drawerList">false</item>
+    <item type="id" name="googleDrawer">false</item>
+    <item type="id" name="imgAvatar">false</item>
+    <item type="id" name="drawer">false</item>
+    <item type="id" name="toolbar_actionbar">false</item>
+    <item type="id" name="scrimInsetsFrameLayout">false</item>
+    <item type="id" name="fragment_drawer">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="progressBar">false</item>
+</resources>

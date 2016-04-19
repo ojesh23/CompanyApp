@@ -1,0 +1,198 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/myPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="colorAccent">@color/myAccentColor</item>
+        <item name="android:textColorPrimary">@color/myTextPrimaryColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="android:windowBackground">@color/myWindowBackground</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="class_8">
+        <item name="android:text">@string/class8</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="study_material">
+        <item name="android:text">@string/studymaterial</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#504d4d</item>
+        <item name="android:paddingLeft">6dp</item>
+    </style>
+
+    <style name="practice">
+        <item name="android:text">@string/practice_exercise</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#504d4d</item>
+        <item name="android:paddingLeft">6dp</item>
+
+    </style>
+
+    <style name="solved_exercise">
+        <item name="android:text">@string/solved_exercise</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#504d4d</item>
+        <item name="android:paddingLeft">6dp</item>
+
+    </style>
+
+    <style name="collection">
+        <item name="android:text">@string/collection</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#504d4d</item>
+        <item name="android:paddingLeft">6dp</item>
+
+    </style>
+
+    <style name="select_subject">
+        <item name="android:text">@string/selectsubject</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#12910c</item>
+        <item name="android:paddingLeft">6dp</item>
+
+    </style>
+
+    <style name="subject_science">
+        <item name="android:text">@string/science</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:background">#860808</item>
+
+    </style>
+    <style name="subject_socialstudies">
+        <item name="android:text">@string/socialstudies</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:background">#dfb13e04</item>
+
+    </style>
+    <style name="subject_computer">
+        <item name="android:text">@string/computer</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:background">#d454030d</item>
+
+    </style>
+    <style name="subject_health">
+        <item name="android:text">@string/health</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:background">#d40e2904</item>
+
+    </style>
+    <style name="subject_account">
+        <item name="android:text">@string/account</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:background">#d40c1397</item>
+
+    </style>
+    <style name="physic_header">
+        <item name="android:text">@string/physicstitle</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#d40c1397</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="units">
+        <item name="android:text">@string/unitstxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="velocity">
+        <item name="android:text">@string/velocitytxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="machine">
+        <item name="android:text">@string/machinetxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="pressure">
+        <item name="android:text">@string/pressuretxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="wep">
+        <item name="android:text">@string/weptxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="heat">
+        <item name="android:text">@string/heattxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="sound">
+        <item name="android:text">@string/soundtxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="light">
+        <item name="android:text">@string/lighttxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="magnetism">
+        <item name="android:text">@string/magnettxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="electricity">
+        <item name="android:text">@string/electrictxt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#b7382fdc</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+</resources>

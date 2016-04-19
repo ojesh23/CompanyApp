@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Kullabs</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="a">Rate this app</string>
+    <string name="b">Rate this app</string>
+    <string name="action_settings">Rate this app</string>
+    <string name="class8">Class 8</string>
+    <string name="studymaterial"> Study material for class 8</string>
+    <string name="practice_exercise"> Unlimited practice sessions for self assesment</string>
+    <string name="solved_exercise"> Thousands of solved exercises</string>
+    <string name="collection"> Collection of related videos for each topic</string>
+    <string name="selectsubject"> Get started by selecting a subject </string>
+    <string name="science"> Science </string>
+    <string name="socialstudies"> Social Studies and Population education </string>
+    <string name="computer"> Computer </string>
+    <string name="health"> Health and physical education </string>
+    <string name="account"> Accountancy </string>
+    <string name="physicstitle">Physics Lessons</string>
+    <string name="unitstxt">Units and Measurement</string>
+    <string name="velocitytxt">Velocity and Acceleration</string>
+    <string name="machinetxt">Simple Machine</string>
+    <string name="pressuretxt">Pressure</string>
+    <string name="weptxt">Work, Energy and Power</string>
+    <string name="heattxt">Heat</string>
+    <string name="soundtxt">Sound</string>
+    <string name="lighttxt">Light</string>
+    <string name="magnettxt">Magnetism</string>
+    <string name="electrictxt">Electricity</string>
+
+    <string-array name="spn1_item">
+        <item>3 Notes</item>
+        <item>10 Videos</item>
+        <item>69 Exercises</item>
+        <item>3 Tests</item>
+    </string-array>
+
+
+</resources>

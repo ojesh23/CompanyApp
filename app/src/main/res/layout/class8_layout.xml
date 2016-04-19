@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:id="@+id/class_8"
+            style="@style/class_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/studymaterial"
+            style="@style/study_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@android:drawable/checkbox_on_background" />
+
+        <TextView
+            android:id="@+id/practice"
+            style="@style/practice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@android:drawable/checkbox_on_background" />
+
+        <TextView
+            android:id="@+id/exercise"
+            style="@style/solved_exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@android:drawable/checkbox_on_background" />
+
+        <TextView
+            android:id="@+id/collection"
+            style="@style/collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@android:drawable/checkbox_on_background" />
+
+        <TextView
+            android:id="@+id/select_subject"
+            style="@style/select_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@android:drawable/ic_menu_more"
+
+            />
+
+        <TextView
+            android:id="@+id/science"
+            style="@style/subject_science"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="@dimen/toolbar_elevation" />
+
+        <TextView
+            android:id="@+id/social_studies"
+            style="@style/subject_socialstudies"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="@dimen/toolbar_elevation" />
+
+        <TextView
+            android:id="@+id/computer"
+            style="@style/subject_computer"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="@dimen/toolbar_elevation" />
+
+        <TextView
+            android:id="@+id/health"
+            style="@style/subject_health"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="@dimen/toolbar_elevation" />
+
+        <TextView
+            android:id="@+id/account"
+            style="@style/subject_account"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="@dimen/toolbar_elevation" />
+
+    </LinearLayout>
+</ScrollView>
